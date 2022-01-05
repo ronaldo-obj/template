@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{33E6AC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "template.API", "template.API\template.API.csproj", "{E5DCB617-8E93-4FA2-96F0-D813F802F246}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{3CD157B2-03E0-4090-8FA0-BA00E07DA36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "template.Dominio", "Dominio\template.Dominio.csproj", "{3CD157B2-03E0-4090-8FA0-BA00E07DA36C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{74FE95DE-89B8-4C1B-B4B1-F9FE733AEC41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "template.Infra", "Infra\template.Infra.csproj", "{74FE95DE-89B8-4C1B-B4B1-F9FE733AEC41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer", "DataTransfer\DataTransfer.csproj", "{2FCB8A65-E0F0-4468-B5AF-4C2069293156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "template.DataTransfer", "DataTransfer\template.DataTransfer.csproj", "{2FCB8A65-E0F0-4468-B5AF-4C2069293156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{E6619C7C-2D7A-478C-9253-979D4EDCB0FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testes", "Testes\Testes.csproj", "{E6619C7C-2D7A-478C-9253-979D4EDCB0FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
