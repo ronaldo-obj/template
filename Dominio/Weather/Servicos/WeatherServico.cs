@@ -18,12 +18,12 @@ namespace Dominio.Weather.Servicos
 
         public IEnumerable<WeatherForecast> Recuperar()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            }).ToArray();
+            return Enumerable.Range(1, 5).Select(index => 
+            new WeatherForecast(
+                DateTime.Now.AddDays(index),
+                Random.Shared.Next(-20, 55), 
+                Summaries[Random.Shared.Next(Summaries.Length)]
+                )).ToArray();
         } 
     }
 }

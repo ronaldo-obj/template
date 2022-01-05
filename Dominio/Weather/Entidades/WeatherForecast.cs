@@ -2,12 +2,46 @@
 {
     public class WeatherForecast
     {
-        public DateTime Date { get; set; }
+        public virtual DateTime Date { get; protected set; }
 
-        public int TemperatureC { get; set; }
+        public virtual int TemperatureC { get; protected set; }
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        public virtual int TemperatureF { get; protected set; }
 
-        public string? Summary { get; set; }
+        public virtual string? Summary { get; protected set; }
+
+        public WeatherForecast() { }
+
+        public WeatherForecast(
+            DateTime date,
+            int temperatureC,
+            string? summary
+            )
+        {
+            SetDate(date);
+            SetTemperatureC(temperatureC);
+            SetTemperatureF();
+            SetSummary(summary);
+        }
+
+        public virtual void SetDate(DateTime date)
+        {
+            Date = date;
+        }
+
+        public virtual void SetTemperatureC(int temperatureC)
+        {
+            TemperatureC = temperatureC;
+        }
+
+        public virtual void SetTemperatureF() 
+        {
+            TemperatureF = 32 + (int)(TemperatureC / 0.5556);
+        }
+
+        public virtual void SetSummary(string? summary)
+        {
+            Summary = summary;
+        }
     }
 }

@@ -2,7 +2,7 @@ using DataTransfer.Weather.Aplicacao.Servicos.Interfaces;
 using DataTransfer.Weather.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace template.API.Controllers
+namespace template.API.Controllers.Weather
 {
     [ApiController]
     [Route("[controller]")]
